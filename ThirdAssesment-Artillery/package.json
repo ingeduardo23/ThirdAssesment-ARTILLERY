@@ -1,0 +1,14 @@
+{
+  "name": "3rdassessment",
+  "version": "1.0.0",
+  "description": "This is the third Assessment of our Certification with WIZELINE",
+  "main": "index.js",
+  "scripts": {
+    "artillerytesting": "artillery run --output results/report.json performanceassessment.yml && artillery report --output results/report.html results/report.json"
+  },
+  "author": "EduardoAraujo",
+  "license": "ISC",
+  "dependencies": {
+    "artillery": "^1.6.2"
+  }
+}

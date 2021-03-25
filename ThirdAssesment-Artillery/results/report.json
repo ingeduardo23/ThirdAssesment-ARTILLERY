@@ -1,0 +1,206 @@
+{
+  "aggregate": {
+    "timestamp": "2021-03-25T03:53:20.316Z",
+    "scenariosCreated": 10,
+    "scenariosCompleted": 10,
+    "requestsCompleted": 70,
+    "latency": {
+      "min": 64.9,
+      "max": 2066.2,
+      "median": 440,
+      "p95": 1426.6,
+      "p99": 1968.8
+    },
+    "rps": {
+      "count": 70,
+      "mean": 7.38
+    },
+    "scenarioDuration": {
+      "min": 2191.3,
+      "max": 5875.1,
+      "median": 3433.6,
+      "p95": 5875.1,
+      "p99": 5875.1
+    },
+    "scenarioCounts": {
+      "0": 10
+    },
+    "errors": {},
+    "codes": {
+      "200": 30,
+      "204": 40
+    },
+    "matches": 0,
+    "customStats": {},
+    "counters": {},
+    "scenariosAvoided": 0,
+    "phases": [
+      {
+        "duration": 2,
+        "arrivalRate": 2,
+        "name": "Testing Phase #1"
+      },
+      {
+        "duration": 2,
+        "arrivalRate": 1,
+        "name": "Testing Phase #2"
+      },
+      {
+        "duration": 2,
+        "arrivalRate": 1,
+        "name": "Testing Phase #3"
+      },
+      {
+        "duration": 1,
+        "arrivalRate": 2,
+        "name": "Testing Phase #4"
+      }
+    ]
+  },
+  "intermediate": [
+    {
+      "timestamp": "2021-03-25T03:53:20.309Z",
+      "scenariosCreated": 10,
+      "scenariosCompleted": 10,
+      "requestsCompleted": 70,
+      "latency": {
+        "min": 64.9,
+        "max": 2066.2,
+        "median": 440,
+        "p95": 1426.6,
+        "p99": 1968.8
+      },
+      "rps": {
+        "count": 70,
+        "mean": 7.39
+      },
+      "scenarioDuration": {
+        "min": 2191.3,
+        "max": 5875.1,
+        "median": 3433.6,
+        "p95": 5875.1,
+        "p99": 5875.1
+      },
+      "scenarioCounts": {
+        "0": 10
+      },
+      "errors": {},
+      "codes": {
+        "200": 30,
+        "204": 40
+      },
+      "matches": 0,
+      "latencies": [
+        338558871,
+        366947234,
+        453697868,
+        214399871,
+        281485274,
+        375505560,
+        688356283,
+        593379486,
+        307889587,
+        588609931,
+        686878691,
+        97338524,
+        397552979,
+        209962451,
+        499635345,
+        263869214,
+        95719796,
+        383466975,
+        880822516,
+        977203315,
+        504709782,
+        748350750,
+        741826506,
+        209984056,
+        563190741,
+        1426602271,
+        95598196,
+        624357915,
+        1035026310,
+        97062237,
+        186591391,
+        1153557927,
+        407518564,
+        353066040,
+        626195843,
+        479752692,
+        64904877,
+        606952285,
+        847899233,
+        200627920,
+        194900492,
+        828964997,
+        510519077,
+        205858428,
+        483459217,
+        101542397,
+        1080161962,
+        165870937,
+        310391925,
+        503750064,
+        686181613,
+        97867374,
+        283427372,
+        1537471725,
+        352420053,
+        93598233,
+        298429280,
+        533574523,
+        703473612,
+        442716697,
+        2066188236,
+        345691206,
+        727600101,
+        433271705,
+        437243426,
+        1579000490,
+        228933748,
+        453084618,
+        875946350,
+        222757399
+      ],
+      "customStats": {},
+      "counters": {},
+      "concurrency": 0,
+      "pendingRequests": 0,
+      "scenariosAvoided": 0
+    },
+    {
+      "timestamp": "2021-03-25T03:53:20.312Z",
+      "scenariosCreated": 0,
+      "scenariosCompleted": 0,
+      "requestsCompleted": 0,
+      "latency": {
+        "min": null,
+        "max": null,
+        "median": null,
+        "p95": null,
+        "p99": null
+      },
+      "rps": {
+        "count": 0,
+        "mean": null
+      },
+      "scenarioDuration": {
+        "min": null,
+        "max": null,
+        "median": null,
+        "p95": null,
+        "p99": null
+      },
+      "scenarioCounts": {},
+      "errors": {},
+      "codes": {},
+      "matches": 0,
+      "latencies": [],
+      "customStats": {},
+      "counters": {},
+      "concurrency": 0,
+      "pendingRequests": 0,
+      "scenariosAvoided": 0
+    }
+  ]
+}
